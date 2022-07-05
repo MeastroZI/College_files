@@ -1,11 +1,11 @@
 x=int(input('enter your number : '))
-condi=bool(True)
+# condi=bool(True)
 
 for i in range(2,x):
     if((x%i)==0):
         
         print(x,"is composite")
-        condi=True
+        # condi=True
         break
     
 else:
